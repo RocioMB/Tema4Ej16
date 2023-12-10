@@ -18,11 +18,11 @@ namespace Ejercicio_16_Tema_4
         }
         int calculaFactorial(int n)
         {
-            int factorial = 1;
-            int i = n;
+            int factorial = 0;
+            int i = 0;
             while(i > 0)
             {
-                factorial *= i;
+                factorial += i;
                 i--;
             }
             return factorial;
