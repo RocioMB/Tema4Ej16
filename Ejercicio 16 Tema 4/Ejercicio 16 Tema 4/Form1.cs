@@ -29,10 +29,10 @@ namespace Ejercicio_16_Tema_4
         }
         private void factorialBtn_Click(object sender, EventArgs e)
         {
-            int n;
-            n = int.Parse(txtN.Text);
+            int nRMB2324;
+            nRMB2324 = int.Parse(txtN.Text);
 
-            MessageBox.Show("El factorial de " + n + " es " + calculaFactorial(n));
+            MessageBox.Show("El factorial de " + nRMB2324 + " es " + calculaFactorial(nRMB2324));
         }
     }
 }
