@@ -18,11 +18,14 @@ namespace Ejercicio_16_Tema_4
         }
         int calculaFactorial(int n)
         {
-            int factorial = 0;
-            int i = 0;
+            //? Cambiamos la inicialización de factorial a 1.
+            int factorial = 1;
+            //? Inicialización de i = n.
+            int i = n;
             while(i > 0)
             {
-                factorial += i;
+                //? Cambiamos suma por multiplicación
+                factorial *= i;
                 i--;
             }
             return factorial;
